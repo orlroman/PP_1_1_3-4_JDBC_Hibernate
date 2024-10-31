@@ -20,7 +20,6 @@ public class UserDaoJDBCImpl implements UserDao {
     }
 
     public void createUsersTable() {
-        
         String sql = """
                 CREATE TABLE IF NOT EXISTS mydbtest.users
                 (
